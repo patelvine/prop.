@@ -1,0 +1,262 @@
+@font-face{
+    font-family: OratorStd;
+        src: url('../font/OratorStd.otf');
+}
+@font-face{
+    font-family: HazelutWater;
+        src: url('../font/Hazelnut_Water.ttf');
+}
+
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    background-size: 100% 100%;
+    margin: 0;
+	text-align: center;
+}
+container{
+    width:100%;
+    height:100%;
+}
+
+/* Header */
+header {
+    position: absolute; 
+    width: 100%;
+    top: 0px;
+}
+
+nav{
+    height: 95px;
+    border: none;
+}
+
+#logo{
+    font-size: 140px !important; 
+    font-weight: 100 !important;
+    color: white;
+    left: -0px !important;
+    font-family: "HazelutWater" !important; 
+    font-weight: bold;
+    background-color: transparent;
+    line-height: 35px !important;
+}
+
+#header-nav a {
+    left: 3%;
+    top: 1%;
+    font-size: 20px; 
+    color: white;
+    font-family: "OratorStd"; 
+    font-weight: bold;
+    background-color: rgb(115,115,115);
+}
+
+
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 95px;
+    height: 95px;
+    padding-top: 0;
+    margin-right: 40px;
+}
+
+.navbar-brand,
+.navbar{
+    background-color: rgb(115,115,115);
+}
+
+.navbar-default{
+    background-color: transparent;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+#bottom-runner{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background-color: rgb(115,115,115);
+}
+
+#container{
+    position: relative;
+    top: 95px;
+}
+
+#title{
+    position: relative;
+    color:darkseagreen;
+    font-size: 100px;
+    font-family:sans-serif; 
+}
+
+#description1{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    font-family:sans-serif; 
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description2{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    font-family:sans-serif; 
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description3{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    font-family:sans-serif;
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description4{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    font-family:sans-serif; 
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description54{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    font-family:sans-serif; 
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 490px) {
+  #title{
+    position: relative;
+    color:darkseagreen;
+    font-size: 40px;
+    font-family:sans-serif; 
+}
+
+#description1{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif; 
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description2{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif; 
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description3{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif;
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description4{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif; 
+    
+    width: 70%;
+    margin: 0 auto;
+} }
+
+@media (max-width: 750px) {
+  #title{
+    position: relative;
+    color:darkseagreen;
+    font-size: 40px;
+    font-family:sans-serif; 
+}
+
+#description1{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family:sans-serif; 
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description2{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family:sans-serif; 
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description3{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family:sans-serif;
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+#description4{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-family:sans-serif; 
+    
+    width: 70%;
+    margin: 0 auto;
+} }
+
