@@ -452,22 +452,21 @@ body {
   webkit-tap-highlight-color: #78CEA9;
 }
 
-
-
-
-
-
-
 .about-icon {
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
     border: 3px solid #78CEA9;
-    height:140px;
-    width:140px;
+    height:100px;
+    width:100px;
     display:inline-block;
     margin:10px;
     border-radius: 50px;
+}
+
+.team-img {
+    height:200px;
+    width:200px;
 }
 
 .about-icon > img {
