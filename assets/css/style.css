@@ -156,7 +156,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
     position: absolute;
-    top: -12px;
+    top: 0px;
     color: #78CEA9;
     font-size: 65px;
     padding: none;
@@ -177,7 +177,6 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
-  font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
@@ -214,7 +213,6 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    top: 0px;
     font-size: 120px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -234,41 +232,44 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 #landing-page {
-  background-image: url('../img/home/home_newlayout.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+    background-color: #ffffff;
+    background: url('../img/home/Homepage_Background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: black;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: inherit;
 }
-#landing-page .intro-text {
-  padding-top: 4vw;
+.intro-text{
+    padding-top: 1em;
   padding-bottom: 50px;
+}
+@media (min-width: 767px){
+    .intro-text{
+    padding-top: 4em;
+    padding-bottom: 50px;
+    }
 }
 #landing-page .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 2.5vw;
-  line-height: 22px;
-  margin-bottom: 3vw;
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
 }
 #landing-page .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 5vw;
+  font-size: 5em;
   margin-bottom: 25px;
 }
 #landing-page .intro-text .intro-description { 
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   text-transform: none;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   margin-bottom: 25px;
-    margin-top: 2.5vw;
+    margin-top: 2.5em;
     font-weight: 400;
     color: #777777;
 }
@@ -278,31 +279,27 @@ section {
 
 
 #about .intro-heading{
-    margin-top: 3.5vw;
-  font-size: 2.5vw;
-}
-#about .intro-text {
-  padding-top: 4vw;
-    padding-bottom: 1vw;
+    margin-top: 1.3em;
+  font-size: 2.6em;
 }
 #about .modal-content .section-subheading{
-    font-size: 1.5vw;
+    font-size: 1.7em;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-weight: 400;
 }
 #about .modal-content .modal-list-item{
     border-style: solid;
-    border-width: .2vw; 
-    margin: 1vw;
+    border-width: .2em; 
+    margin: 1em;
     border-color: #78CEA9;
     border-radius: 10px;
 }
 #about .conclusion-text {
-  padding-top: 1vw;
+  padding-top: .7em;
 }
 section h3.section-subheading {
-  font-size: 1.3vw;
+  font-size: 1.5em;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-weight: 400;
@@ -310,32 +307,47 @@ section h3.section-subheading {
 }
 section#about{
   background-color: #ffffff;
-  background-image: url('../img/about/about_newlayout.png');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url('../img/about/Aboutpage_Background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: inherit;
 }
 .service-heading {
   margin: 15px 0;
   text-transform: none;
 }
-
-
-
+#team {
+  background-color: #222222;
+  background: url('../img/team/Teampage_Background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+}
 #team .intro-heading{
-    margin-top: 3.5vw;
-  font-size: 2.5vw;
+    margin-top: 1.5em;
+  font-size: 2.6em;
+}
+.team-member-row{
+    text-align: center;
 }
 .team-member {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
 }
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
+.team-member h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-transform: none;
 }
 .team-member p {
@@ -344,12 +356,7 @@ section#about{
 aside.clients img {
   margin: 50px auto;
 }
-section#contact {
-  background-color: #222222;
-  background-image: url('../img/contact/contact_newlayout.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 section#contact .section-heading {
   color: white;
 }
@@ -458,8 +465,10 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
-body {
+html, body {
   webkit-tap-highlight-color: #78CEA9;
+    height: 100%;
+    margin: 0;
 }
 
 .about-icon {
@@ -474,11 +483,40 @@ body {
     border-radius: 1000px;
 }
 
-.team-img {
-    position: absolute;
+/*.team-img {
+    max-width: 60%;
+    height:60%;
+    width:60%;
+}*/
+
+
+/*@media (min-width: 480px) {
+  .team-img {
+    max-width: 20%;
+    height:20%;
+    width:20%;
+    }
+}*/
+@media (min-width: 767px) {
+  .team-img {
+    max-width: 40%;
+    height:40%;
+    width:40%;
+    }
+
+@media (min-width: 1440px) {
+  .team-img {
     max-width: 50%;
-    height:auto;
-    width:auto;
+    height:50%;
+    width:50%;
+    }
+}
+@media (min-width: 1680px) {
+  .team-img {
+    max-width: 70%;
+    height:70%;
+    width:70%;
+    }
 }
 
 .about-icon > img {
