@@ -246,64 +246,67 @@ fieldset[disabled] .btn-xl.active {
   color: black;
 }
 #landing-page .intro-text {
-  padding-top: 100px;
+  padding-top: 4vw;
   padding-bottom: 50px;
 }
 #landing-page .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 2.5vw;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 3vw;
 }
 #landing-page .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 5vw;
   margin-bottom: 25px;
 }
-@media (min-width: 768px) {
-  #landing-page .intro-text {
-    padding-bottom: 200px;
-  }
-  #landing-page .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-  #landing-page .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
+#landing-page .intro-text .intro-description { 
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  text-transform: none;
+  font-size: 1.5vw;
+  margin-bottom: 25px;
+    margin-top: 2.5vw;
+    font-weight: 400;
+    color: #777777;
 }
 section {
   padding: 100px 0;
 }
-section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 10px;
+
+
+#about .intro-heading{
+    margin-top: 3.5vw;
+  font-size: 2.5vw;
+}
+#about .intro-text {
+  padding-top: 4vw;
+    padding-bottom: 1vw;
+}
+#about .modal-content .section-subheading{
+    font-size: 1.5vw;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-weight: 400;
+}
+#about .modal-content .modal-list-item{
+    border-style: solid;
+    border-width: .2vw; 
+    margin: 1vw;
+    border-color: #78CEA9;
+    border-radius: 10px;
+}
+#about .conclusion-text {
+  padding-top: 1vw;
 }
 section h3.section-subheading {
-  font-size: 16px;
+  font-size: 1.3vw;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
   margin-bottom: 30px;
-}
-@media (min-width: 768px) {
-  section {
-    padding: 140px 0;
-  }
 }
 section#about{
   background-color: #ffffff;
@@ -314,6 +317,13 @@ section#about{
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+
+
+#team .intro-heading{
+    margin-top: 3.5vw;
+  font-size: 2.5vw;
 }
 .team-member {
   text-align: center;
@@ -457,24 +467,26 @@ body {
        -moz-border-radius: 6px;
             border-radius: 6px;
     border: 3px solid #78CEA9;
-    height:100px;
-    width:100px;
+    height:200px;
+    width:200px;
     display:inline-block;
     margin:10px;
-    border-radius: 50px;
+    border-radius: 1000px;
 }
 
 .team-img {
-    height:200px;
-    width:200px;
+    position: absolute;
+    max-width: 100%;
+    height:auto;
+    width:auto;
 }
 
 .about-icon > img {
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
-    height:140px;
-    width:140px;
+    height:200px;
+    width:200px;
 }
 
 nav{
